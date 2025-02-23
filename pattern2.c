@@ -110,7 +110,6 @@ void Horizontal_diamond(int n)
             if(j == odd)
             {
                 printf("%10c", ' ');
-                //printf("%*c", i, '*');
             }
 
             else 
@@ -121,6 +120,7 @@ void Horizontal_diamond(int n)
     }
 
 }
+
 void Solid_diamond(int n)
 {
     printf("\nSolid Diamond:- \n");
@@ -150,6 +150,7 @@ void Solid_diamond(int n)
         printf("\n");
     }
 }
+
 void Hollow_diamond(int n)
 {
     printf("\nHollow Diamond:- \n"); 
